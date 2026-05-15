@@ -1,0 +1,9 @@
+# Machine-private — never commit
+.zshrc.local
+.dotfiles-backup-*/
+
+# macOS noise
+.DS_Store
+
+# Claude Code locals
+claude/.claude/settings.local.json

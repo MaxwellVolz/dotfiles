@@ -1,0 +1,11 @@
+# ~/.zshrc.local — machine-specific shell config (NOT committed)
+#
+# This file is sourced at the end of ~/.zshrc. Use it for:
+#   - API keys / tokens
+#   - Work-only PATH entries or aliases
+#   - Per-machine editor overrides
+#
+# Example:
+# export OPENAI_API_KEY="sk-..."
+# export ROBLOX_API_KEY="..."
+# export EDITOR='code --wait'
