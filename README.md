@@ -2,6 +2,8 @@
 
 Maxwell's dev environment, packaged for one-command provisioning.
 
+📓 Full provisioning runbook (pre-flight, post-install sign-ins, manual steps): [Notion → Provision](https://www.notion.so/Provision-36186f15f064814d9face0f5b0cbe7be?source=copy_link)
+
 **macOS** (primary, Apple Silicon):
 
 ```
