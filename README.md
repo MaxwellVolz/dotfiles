@@ -1,14 +1,24 @@
 # dotfiles
 
-Maxwell's macOS dev environment, packaged for one-command provisioning.
+Maxwell's dev environment, packaged for one-command provisioning.
+
+**macOS** (primary, Apple Silicon):
 
 ```
-git clone https://github.com/<you>/dotfiles.git ~/_git/dotfiles
+git clone https://github.com/MaxwellVolz/dotfiles.git ~/_git/dotfiles
 cd ~/_git/dotfiles
 ./install.sh
 ```
 
 That's it. New shell, new prompt, new tools, new bells.
+
+**Linux** (Debian/Ubuntu base packages only — older, less polished):
+
+```
+git clone https://github.com/MaxwellVolz/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+./linux/setup.sh
+```
 
 ## What's inside
 
