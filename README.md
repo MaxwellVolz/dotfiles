@@ -14,6 +14,15 @@ cd ~/_git/dotfiles
 
 That's it. New shell, new prompt, new tools, new bells.
 
+### Install Claude Code
+
+The dotfiles symlink `~/.claude/settings.json` (hooks, statusline, plugins), but you still need the binary. Native installer is the easiest path — no Node dependency, self-updates via `claude update`:
+
+```
+curl -fsSL https://claude.ai/install.sh | bash
+claude              # first run prompts you to sign in via browser
+```
+
 **Linux** (Debian/Ubuntu base packages only — older, less polished):
 
 ```

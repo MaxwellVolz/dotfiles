@@ -42,7 +42,7 @@ setopt HIST_VERIFY            # Show command before executing from history
 
 # ----- Better Defaults -----
 setopt AUTO_CD                # Type a dir name to cd into it
-setopt CORRECT                # Suggest corrections for mistyped commands
+# setopt CORRECT                # Suggest corrections for mistyped commands
 setopt GLOB_DOTS              # Include dotfiles in globs
 
 # ----- Modern CLI Aliases -----
