@@ -29,9 +29,7 @@ brew "zsh-syntax-highlighting"
 # ----- Languages / runtimes -----
 brew "node", link: false
 brew "node@22", link: true
-brew "python@3.12"
 brew "python@3.13"
-brew "openjdk"
 brew "uv"              # python package manager
 brew "swiftformat"
 
@@ -52,9 +50,6 @@ brew "xcodegen"
 # ----- Casks -----
 cask "ghostty"                          # terminal
 cask "font-jetbrains-mono-nerd-font"    # nerd font for starship glyphs
-cask "android-platform-tools"
-cask "android-studio"
-cask "godot"
 cask "localsend"
 cask "ngrok"
 
