@@ -34,15 +34,13 @@ if ! $step_link_only; then
   ok "brew bundle complete"
 fi
 
-# ----- 3. Stow -----
-if ! $step_link_only; then
-  b "3. GNU stow"
-  if ! command -v stow >/dev/null 2>&1; then
-    warn "installing stow…"
-    brew install stow
-  else
-    ok "stow already installed"
-  fi
+# ----- 3. Stow (needed in both modes — symlinking is the whole point of --link) -----
+b "3. GNU stow"
+if ! command -v stow >/dev/null 2>&1; then
+  warn "installing stow…"
+  brew install stow
+else
+  ok "stow already installed"
 fi
 
 # ----- 4. Backup conflicting files, then symlink -----

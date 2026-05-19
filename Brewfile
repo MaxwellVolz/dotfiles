@@ -12,6 +12,7 @@ brew "git"
 brew "gh"
 brew "pandoc"
 brew "ffmpeg"
+brew "stow"            # symlinks dotfiles into $HOME (used by install.sh)
 
 # ----- Modern CLI replacements -----
 brew "starship"        # prompt
