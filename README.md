@@ -88,6 +88,6 @@ The `gstack` plugin and its `notion-task-databases.json` are **not** included �
 
 - `~/.claude.json` — session state / auth
 - `~/.ssh/` — keys
-- `~/.fly/`, `~/.copilot/`, `~/.cargo/`, etc. — tool state, rebuilt on first use
+- `~/.cargo/`, `~/.npm/`, etc. — tool state, rebuilt on first use
 - VSCode `settings.json` — minimal enough to not bother; extensions are in the Brewfile
-- Roblox / project API keys — belong in project-scoped `.env` files, not the global shell
+- Project / per-app API keys — belong in project-scoped `.env` files, not the global shell

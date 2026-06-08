@@ -90,4 +90,4 @@ echo
 echo "Next steps:"
 echo "  1. Open a new terminal (zinit will self-install on first launch)."
 echo "  2. Edit ~/.zshrc.local for machine-specific secrets."
-echo "  3. Sign in to gh / supabase / flyctl / stripe etc. as needed."
+echo "  3. Sign in to gh / ngrok etc. as needed."

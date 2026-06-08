@@ -7,5 +7,4 @@
 #
 # Example:
 # export OPENAI_API_KEY="sk-..."
-# export ROBLOX_API_KEY="..."
 # export EDITOR='code --wait'
