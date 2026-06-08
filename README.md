@@ -42,6 +42,8 @@ cd ~/dotfiles
 | `Brewfile` | — | every formula, cask, and VSCode extension |
 | `install.sh` | — | brew bundle + stow loop, idempotent |
 
+The Brewfile is intentionally a **generic baseline** — core CLI, modern replacements, Node/Python, and a terminal. Project- or cloud-specific tooling (Firebase, Fly, Stripe, mobile/game-dev SDKs, etc.) is installed per-project as needed, not globally.
+
 ## How it works
 
 GNU `stow` symlinks each top-level package into `$HOME`. Each package's directory tree mirrors what it places in your home:
