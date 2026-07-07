@@ -8,6 +8,7 @@ brew "gh"
 brew "pandoc"
 brew "ffmpeg"
 brew "stow"            # symlinks dotfiles into $HOME (used by install.sh)
+brew "tmux"            # terminal multiplexer
 
 # ----- Modern CLI replacements -----
 brew "starship"        # prompt
